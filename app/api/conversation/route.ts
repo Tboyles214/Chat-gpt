@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import { auth } from '@clerk/nextjs'
 import { createChat } from "completions"
-import { increaseApiLimit, checkApiLimit } from "@/lib/api-limit"
+
 
 import OpenAI from 'openai';
 

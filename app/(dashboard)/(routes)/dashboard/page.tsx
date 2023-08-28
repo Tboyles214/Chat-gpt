@@ -1,7 +1,14 @@
 "use client";
 import { Card } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
-import { MessageSquare, ArrowRight, Music, ImageIcon, VideoIcon, Code } from "lucide-react";
+import { cn } from "@/components/lib/utils";
+import {
+  MessageSquare,
+  ArrowRight,
+  Music,
+  ImageIcon,
+  VideoIcon,
+  Code,
+} from "lucide-react";
 import { useRouter } from "next/navigation";
 const tools = [
   {
@@ -45,10 +52,7 @@ const tools = [
 const DashboardPage = () => {
   const router = useRouter();
 
-
-
   return (
-    
     <div className="mb-8 space-y-4">
       <h2 className="text-2xl md:text-4xl font-bold text-center">
         Explore the power of AI
@@ -70,16 +74,13 @@ const DashboardPage = () => {
               <div className={cn("p-2 w-fit rounded-md", tool.bgColor)}>
                 <tool.icon className={cn("w-8 h-8", tool.color)} />
               </div>
-              <div className="font-semibold">
-              {tool.label}
-              </div>
+              <div className="font-semibold">{tool.label}</div>
             </div>
-            <ArrowRight className="w-5 h-5"/>
+            <ArrowRight className="w-5 h-5" />
           </Card>
         ))}
       </div>
     </div>
-    
   );
 };
 

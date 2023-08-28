@@ -17,7 +17,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Empty } from "@/components/Empty";
 import { Loader } from "@/components/Loader";
-import { cn } from "@/lib/utils";
+import { cn } from "@/components/lib/utils";
 import { UserAvatar } from "@/components/User-avatar";
 import { BotAvatar } from "@/components/Botavatar";
 

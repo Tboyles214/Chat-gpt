@@ -17,7 +17,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Empty } from "@/components/Empty";
 import { Loader } from "@/components/Loader";
-import { cn } from "@/lib/utils";
+import { cn } from "@/components/lib/utils";
 
 import { Select, SelectItem, SelectTrigger } from "@/components/ui/select";
 import { SelectContent, SelectValue } from "@radix-ui/react-select";
